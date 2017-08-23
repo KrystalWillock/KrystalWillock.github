@@ -11,12 +11,12 @@ body {
 
   height: 100vh;
 
-  font-family: monospace;
+  font-family: cursive;
   background-color: lightblue;
   text-align: center;
 }
 
-button {
+button {cursive
   font-size: 24px;
   font-family: monospace;
 }
