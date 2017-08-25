@@ -24,3 +24,7 @@ button {cursive
 img {
   max-width: 80%;
 }
+
+ul {
+    list-style-type: none;
+}
