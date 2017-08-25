@@ -28,7 +28,8 @@ var colors = [
   'pink',
   'plum', 0,
   'powderblue', 0,
-  'purple'
+  'mediumvioletred',
+  'purple',
 ];
 var cur = 0;
 
