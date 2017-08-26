@@ -75,3 +75,4 @@ var aListOnClick = function (event) {
     event.target.style.textDecoration = 'line-through';
   }
 }
+console.log(students);
