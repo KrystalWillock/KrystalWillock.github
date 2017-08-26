@@ -72,7 +72,7 @@ var pickOnClick = function (event) {
   }, 200);
 }
 
-var clickHere - fuction(event) {
+var clickHere - function (event) {
     alert ('just chilling!')
 }
 
