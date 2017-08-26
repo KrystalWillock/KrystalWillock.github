@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 var pickOnClick = function (event) {
   choice.innerHTML = '&nbsp;'
   var rand = students[Math.floor(Math.random() * students.length)];
+  var studentsRemove = students.splice(students.indexOf(rand),1);
   var x = window.setInterval(() => {
     if (colors[cur] === undefined) {
       window.clearInterval(x);
