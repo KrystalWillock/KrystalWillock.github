@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 var pickOnClick = function (event) {
-  choice.innerHTML = '&nbsp;'f
+  choice.innerHTML = '&nbsp';
  // var rand = students[Math.floor(Math.random() * students.length)];
   var rand = students.slice(Math.floor(Math.random() * students.length), 1);
   var x = window.setInterval(() => {
