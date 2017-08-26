@@ -64,7 +64,7 @@ var pickOnClick = function (event) {
     if (colors[cur] === undefined) {
       window.clearInterval(x);
       cur = 0;
-      choice.innerText = rand + "," + rand2;
+      choice.innerHTML = rand + "," + rand2;
       return;
     }
     if (colors[cur]) header.style.color = colors[cur];
@@ -72,6 +72,8 @@ var pickOnClick = function (event) {
     cur += 1;
   }, 200);
 }
+
+choice.innerHTML = rand + 'hearts' + randtwo
 
 var clickHere - function (event) {
     alert ('just chilling!')
