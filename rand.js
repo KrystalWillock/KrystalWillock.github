@@ -39,11 +39,13 @@ document.addEventListener('DOMContentLoaded', () => {
   body = document.getElementById('body');
   header = document.getElementById('header');
   pickButton = document.getElementById('pickButton');
+  pickButton2 = document.getElementById('pickButton2');
   choice = document.getElementById('choice');
   aList = document.getElementById('aList');
 
   pickButton.addEventListener('click', pickOnClick );
   aList.addEventListener('click', aListOnClick );
+  pickButton2.addEventListener('click', clickHere );
 
   // build the attendance list
   for (let i=0; i<students.length; i++) {
@@ -68,6 +70,10 @@ var pickOnClick = function (event) {
     if (colors[cur-1]) body.style.backgroundColor = colors[cur-1];
     cur += 1;
   }, 200);
+}
+
+var clickHere = function (event){
+  alert("just chilling!")
 }
 
 var aListOnClick = function (event) {
